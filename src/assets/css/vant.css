@@ -1,0 +1,99 @@
+.van-field__left-icon .van-icon,
+.van-field__right-icon .van-icon {
+  font-size: 40px;
+}
+.loginForm .van-field__left-icon .van-icon{
+    color:#fff;
+}
+.loginForm .van-field__control{
+    color:#fff;
+    font-weight: normal;
+}
+/* 以上为login.vue页面的vant样式 */
+.van-tabbar{
+  height:auto;
+  padding:20px 0;
+}
+.van-tabbar .iconfont{
+  font-size:24px;
+}
+.van-tabbar .iconfont::before{
+  font-size:50px;
+}
+.van-tabbar-item__icon{
+  margin-bottom:20px;
+}
+.van-tabbar .van-info{
+  top:-40px;
+  left:16px;
+}
+.van-tabbar-item--active{
+  color:red;
+}
+/* 以上为footer.vue的vant样式 */
+
+/* .books .van-col{padding:0 70px;} */
+/* 以上是书架页面的vant 样式 */
+
+.van-nav-bar{
+  background:rgb(51, 92, 109);
+  height:auto;
+  padding:20px 0 10px;
+  
+}
+.van-nav-bar--fixed{
+  z-index:999!important;
+}
+.van-nav-bar .van-nav-bar__title{
+  max-width:78%;
+}
+.van-nav-bar .van-search{
+  padding:0;
+  background:none;
+}
+.van-nav-bar .van-cell{
+  padding:0;
+  line-height:60px;
+}
+.van-nav-bar .van-search__content{
+  height:60px;
+  line-height:60px;
+}
+
+.van-nav-bar .van-search__content--round{
+  border-radius:30px;
+}
+
+.van-nav-bar .iconfont{
+  margin-left:20px;
+  
+  line-height:60px;
+}
+
+.van-nav-bar .iconfont.icon-sousuo{
+  color:#ccc;
+  margin-right:10px;
+  font-size:35px;
+}
+
+.van-nav-bar .iconfont.icon-bofangyinle{
+  font-size:40px;
+  color:#fff;
+}
+
+.van-nav-bar .iconfont.icon-biaoshilei_saoma{
+  font-size:30px;
+  padding-right:20px;
+}
+.van-nav-bar.van-hairline--bottom::after{
+  border-bottom-width:0;
+}
+
+.cardIcon .iconfont{
+  font-size:60px;
+  color:rgb(107,198,212);
+}
+.cardIcon .van-grid-item__content{
+  background:none;
+  padding:10px 0 0;
+}
